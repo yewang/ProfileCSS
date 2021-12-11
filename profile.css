@@ -77,3 +77,8 @@ h2, h3 {
     99%  {  opacity: 0; }
     100% {  opacity: 1; }
 }
+
+/* clean up the menu */
+a[href="/leaderboards"] {
+    display: none !important;
+}
